@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+#main-header{
+    text-align: center;
+    color:grey;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size:1cm;
+}
+/* html{
+    position: fixed;
+    left:35%;
+} */
+html{
+    background-image: url(https://www.kindpng.com/picc/m/386-3865678_iphone-screen-wallpaper-download-hd-png-download.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(243, 239, 239);
+}
+#outer{
+    margin-left: 28%;
+    width: 40%;
+    justify-content: center;
+}
+#outer-div{
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+}
+.inner-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    font-family: sans-serif;
+    font-size: large;
+    background-color:rgb(55, 135, 172);
+    color: white;
+}
+.inner-div:hover{
+    background-color: gray;
+}
+a:hover{
+    color: red;
+}
+.inner-div span{
+    margin:5px;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+}
+input{
+    border: 0;
+}
+form{
+    margin-left: 11%;
+}
